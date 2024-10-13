@@ -18,6 +18,281 @@
     </head>
 
 <body>
+        <div class="form-box">
+            <div>
+            <img alt="" src="logoa.png" class="logo" /><label id="texto" class="texto" for="texto" style="padding-left: 20px;font-size:20px;font-weight:bold" >Pesquisa de atendimento pela compra</label>
+                <p></p>
+            <label id="cliente" style="font-size:12px">Prezado cliente, nos ajude a aprimorar os nossos processos respondendo às perguntas abaixo.</label>
+            </div>
+            <form action="#">
+               <div class="input-group">
+                     <label for="data"> Data da Compra</label> 
+                    <input type="date" id="data" required>
+                </div>
+                <div class="input-group">
+                     <label for="nome"> Nome</label> 
+                    <input type="text" id="nome" placeholder="Informe o seu nome completo" required>
+                </div>
+                <div class="input-group">
+                     <label for="nascimento"> Data de Nascimento</label> 
+                    <input type="date" id="nascimento" required>
+                </div>
+                <div class="input-group_CH">
+                     <label for="genero" style="color: #3D3D3D;font-weight: bold;display: block;margin-bottom: 5px;"> Gênero</label>    
+<!--                    <div>
+                    <input type="checkbox" id="generoM" name="generoM" value="Masculino" >
+                    <label for="generoM" >Masculino</label><br>
+                    <input type="checkbox" id="generoF" name="generoF" value="Feminino">
+                    <label for="generoF">Feminino</label><br>
+                   </div> -->
+                    <div>
+                 <input type="checkbox" id="1" name="Option 1"  >
+                 <label for="AG-Wahl"  >Masculino</label>
+                  <input type="checkbox" id="2" name="Option 2">
+                  <label for="AG-Wahl">Feminino</label>
+                 </div>
+             </div>
+                 <div class="input-group">
+                     <label for="profissao"> Profissão</label> 
+                    <input type="text" id="profissao" placeholder="Informe a sua profissão" required>
+                </div>
+                <div class="input-group"  >
+                    <label for="email">E-mail</label> 
+                    <input type="email" id="email" placeholder="Informe o seu email" required" >
+                </div>
+
+                <div class="input-group">
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" id="telefone" placeholder="Informe o seu telefone" required>
+                </div>
+                  <div class="input-group_CH">
+                     <label for="casado" style="color: #3D3D3D;font-weight: bold;display: block;margin-bottom: 5px;"> Casado?</label> 
+                  
+<!--                    <input type="checkbox" id="casadoS" name="casadoS" value="SIM" style="display:inline-block">
+                    <label for="casadoS" style="display:inline-block">Sim</label><br>
+                     <input type="checkbox" id="casadoN" name="casadoN" value="NAO"style="display:inline-block">
+                    <label for="casadoN"style="display:inline-block">Não</label><br>-->
+                  <div>
+                 <input type="checkbox" id="casadoS" name="Option 1">
+                 <label for="casadoS">Sim</label>
+                  <input type="checkbox" id="casadoN" name="Option 2">
+                  <label for="casadoN">Não</label>
+                 </div>
+                 </div> 
+                     <div class="input-group_CH">
+                     <label for="filhos" style="color: #3D3D3D;font-weight: bold;display: block;margin-bottom: 5px;"> Tem Filhos?</label>                  
+<!--                    <input type="checkbox" id="filhosS" name="filhosS" value="SIM" style="display:inline-block">
+                    <label for="filhosS" style="display:inline-block">Sim</label><br>
+                     <input type="checkbox" id="filhosN" name="filhosN" value="NAO"style="display:inline-block">
+                    <label for="filhosN"style="display:inline-block">Não</label><br>-->
+                 <div>
+                 <input type="checkbox" id="filhosS" name="Option 1">
+                 <label for="filhosS">Sim</label>
+                  <input type="checkbox" id="filhosN" name="Option 2">
+                  <label for="filhosN">Não</label>
+                </div>
+                </div> 
+                <div class="input-group">
+                    <label for="temfilhos">Se sim, qual a idade dos fihos?</label>
+                    <input type="text" id="temfilhos" placeholder="Idade dos filhos" required>
+                </div>
+                     <div class="input-group_CH">
+                     <label for="escolaridade" style="color: #3D3D3D;font-weight: bold;display: block;margin-bottom: 5px;"> Escolaridade</label>   
+                         <div>
+                         <input type="checkbox" id="escolaridadeF" name="escolaridadeF" value="Fundamental">
+                         <label for="escolaridadeF" >Fundamental</label>
+                          <input type="checkbox" id="escolaridadeM" name="escolaridadeM" value="EnsinoMedio">
+                         <label for="escolaridadeM">Ensino Médio</label>
+                         <input type="checkbox" id="escolaridadeS" name="escolaridadeS" value="Superior">
+                         <label for="escolaridadeS">Superior</label>
+                         <input type="checkbox" id="outros" name="outros" value="Superior">
+                         <label for="outros">Outros</label>
+                         <input type="text" style="border-radius: 10px"/>
+                         </div>
+                      </div>
+                <div class="input-group_CH">
+                <label for="conhecimento" style="color: #3D3D3D;font-weight: bold;display: block;margin-bottom: 1px;">Como tomou conhecimento do Portal?</label>                  
+                 <div>
+                  <div>
+                  <label style="color: #3D3D3D;font-weight: bold;display: block;margin-bottom: 1px;">Internet</label>
+                 <input type="checkbox" id="site" name="Option 1">
+                 <label for="site">Site do Portal</label><br />
+                  <input type="checkbox" id="google" name="Option 2">
+                  <label for="google">Anúncio no Google</label><br />
+                  <input type="checkbox" id="facebook" name="Option 1">
+                 <label for="facebook">Facebook</label><br />
+                  <input type="checkbox" id="instagram" name="Option 2">
+                  <label for="instagram">Instagram</label><br />
+                  <input type="checkbox" id="outro" name="outro" value="Superior">
+                  <label for="outro">Outros</label>
+                  <input type="text" style="border-radius: 10px"/>
+                  </div>
+                  <div>
+                  <label style="color: #3D3D3D;font-weight: bold;display: block;margin-bottom: 5px;">TV</label>
+                 <input type="checkbox" id="globo" name="Option 1">
+                 <label for="globo">TV Globo</label><br />
+                  <input type="checkbox" id="alterosa" name="Option 2">
+                  <label for="alterosa">Alterosa</label><br />
+                  <input type="checkbox" id="record" name="Option 1">
+                 <label for="record">TV Record</label><br />
+                  <input type="checkbox" id="band" name="Option 2">
+                  <label for="band">Band</label><br />
+                  <input type="checkbox" id="web" name="Option 2">
+                  <label for="web">Web Seminovos</label><br />
+                  <input type="checkbox" id="outras" name="outras" value="Superior">
+                  <label for="outras">Outras</label>
+                  <input type="text" style="border-radius: 10px"/>
+                  </div>
+                  <div>
+                  <label style="color: #3D3D3D;font-weight: bold;display: block;margin-bottom: 5px;">Outros</label>
+                 <input type="checkbox" id="radio" name="Option 1">
+                 <label for="radio">Rádio</label><br />
+                  <input type="checkbox" id="carro" name="Option 2">
+                  <label for="carro">Carro de Som</label><br />
+                  <input type="checkbox" id="panfleto" name="Option 1">
+                 <label for="panfleto">Panfleto</label><br />
+                  <input type="checkbox" id="revista" name="Option 2">
+                  <label for="revista">Revista</label><br />
+                  <input type="checkbox" id="jornal" name="Option 2">
+                  <label for="jornal">Jornal Impresso</label><br />
+                  <input type="checkbox" id="faixa" name="Option 2">
+                  <label for="faixa">Faixa Humana</label><br />
+                  <input type="checkbox" id="indicacao" name="Option 2">
+                  <label for="indicacao">Indicação</label><br />
+                  <input type="checkbox" id="pedestre" name="Option 2">
+                  <label for="pedestre">Pedestre</label><br />
+                  <input type="checkbox" id="outross" name="outross" value="Superior">
+                  <label for="outross">Outros</label>
+                  <input type="text" style="border-radius: 10px"/>
+                  </div>      
+                 </div>
+                </div> 
+
+                  <div class="input-group_CH">
+                  <label for="conhecia" style="color: #3D3D3D;font-weight: bold;display: block;margin-bottom: 5px;">Conhecia o Portal antes dessa compra?</label>                  
+                 <div>
+                 <input type="checkbox" id="conheciaS" name="Option 1">
+                 <label for="conheciaS">Sim</label>
+                  <input type="checkbox" id="conheciaN" name="Option 2">
+                  <label for="conheciaN">Não</label>
+                </div>
+                </div> 
  
+                  <div class="input-group_CH">
+                  <label for="comprou" style="color: #3D3D3D;font-weight: bold;display: block;margin-bottom: 5px;">Já comprou carro no Portal?</label>                  
+                 <div>
+                 <input type="checkbox" id="comprouS" name="Option 1">
+                 <label for="comprouS">Sim</label>
+                  <input type="checkbox" id="comprouN" name="Option 2">
+                  <label for="comprouN">Não</label>
+                  <label >Quando?</label>
+                  <input type="text" style="border-radius: 10px"/>
+                </div>
+                </div> 
+
+                  <div class="input-group_CH">
+                  <label for="esta" style="color: #3D3D3D;font-weight: bold;display: block;margin-bottom: 5px;">Está comprando um carro para</label>                  
+                  <div>
+                 <input type="checkbox" id="estaV" name="Option 1">
+                 <label for="estaV">Você</label>
+                 <input type="checkbox" id="outrosss" name="outrosss" value="Superior">
+                 <label for="outrosss">Outros</label>
+                  <input type="text" style="border-radius: 10px"/>
+                </div>
+                </div> 
+
+                  <div class="input-group_CH">
+                  <label style="color: #3D3D3D;font-weight: bold;display: block;margin-bottom: 5px;">Porque escolheu o Portal?</label>
+                 <input type="checkbox" id="confianca" name="Option 1">
+                 <label for="confianca">Confiança</label><br />
+                  <input type="checkbox" id="atendimento" name="Option 2">
+                  <label for="atendimento">Atendimento</label><br />
+                  <input type="checkbox" id="localizacao" name="Option 1">
+                 <label for="localizacao">Localização</label><br />
+                  <input type="checkbox" id="conforto" name="Option 2">
+                  <label for="conforto">Conforto</label><br />
+                  <input type="checkbox" id="estacionamento" name="Option 2">
+                  <label for="estacionamwnto">Estacionamento</label><br />
+                  <input type="checkbox" id="seguranca" name="Option 2">
+                  <label for="seguranca">Segurança</label><br />
+                  <input type="checkbox" id="qualidade" name="Option 2">
+                  <label for="iqualidade">Qualidade</label><br />
+                  <input type="checkbox" id="condicoes" name="Option 2">
+                  <label for="condicoes">Condições</label><br />
+                  <input type="checkbox" id="variedade" name="Option 2">
+                  <label for="variedade">Variedade</label><br />
+                  <input type="checkbox" id="jaecliente" name="Option 2">
+                  <label for="jaecliente">Já é cliente</label><br />
+                  <input type="checkbox" id="pelocarro" name="Option 2">
+                  <label for="pelocarro">Pelo Carro</label><br />
+                  </div>    
+
+                 <div class="input-group">
+                     <label for="loja"> Em qual loja comprou?</label> 
+                    <input type="text" id="loja" placeholder="Informe a loja">
+                </div> 
+                 <div class="input-group">
+                     <label for="vendedor">Venderor(a)</label> 
+                    <input type="text" id="venderor" placeholder="Informe o(a) vendedor(a)">
+                </div> 
+
+                 <div class="input-group_CH">
+                  <label style="color: #3D3D3D;font-weight: bold;display: block;margin-bottom: 5px;">Porque comprou nessa loja?</label>
+                 <input type="checkbox" id="confianc" name="Option 1">
+                 <label for="confianc">Confiança</label><br />
+                  <input type="checkbox" id="atendiment" name="Option 2">
+                  <label for="atendiment">Atendimento</label><br />
+                  <input type="checkbox" id="variedad" name="Option 1">
+                 <label for="variedad">Variedade</label><br />
+                  <input type="checkbox" id="pelocarr" name="Option 2">
+                  <label for="pelocarr">Pelo Carro</label><br />
+                  <input type="checkbox" id="seguranc" name="Option 2">
+                  <label for="seguran">Segurança</label><br />
+                  <input type="checkbox" id="qualidad" name="Option 2">
+                  <label for="iqualidad">Qualidade</label><br />
+                  <input type="checkbox" id="condicoe" name="Option 2">
+                  <label for="condicoe">Condições</label><br />
+                  <input type="checkbox" id="jaeclient" name="Option 2">
+                  <label for="jaeclient">Já é cliente</label><br />
+                  </div>   
+
+                 <div class="input-group_CH">
+                  <label style="color: #3D3D3D;font-weight: bold;display: block;margin-bottom: 5px;">Como avalia o atendimento do(a) vendedor(a)?</label>
+                 <input type="checkbox" id="excelente" name="Option 1">
+                 <label for="excelente">Excelente</label><br />
+                  <input type="checkbox" id="bom" name="Option 2">
+                  <label for="bom">Bom</label><br />
+                  <input type="checkbox" id="regular" name="Option 1">
+                 <label for="regular">Regular</label><br />
+                  <input type="checkbox" id="ruim" name="Option 2">
+                  <label for="ruim">Ruim</label><br />
+                  <input type="checkbox" id="pessimo" name="Option 2">
+                  <label for="pessimo">Péssimo</label><br />
+                  </div> 
+
+                  <div class="input-group_CH">
+                  <label for="autoriza" style="color: #3D3D3D;font-weight: bold;display: block;margin-bottom: 5px;"> Você autoriza o envio de promoções e informativos no seu E-Mail?</label> 
+                  <div>
+                 <input type="checkbox" id="autorizaS" name="Option 1">
+                 <label for="autorizaS">Sim</label>
+                  <input type="checkbox" id="autorizaN" name="Option 2">
+                  <label for="autorizaN">Não</label>
+                 </div>
+                 </div> 
+
+                  <div class="input-group_CH">
+                  <label for="deixe" style="color: #3D3D3D;font-weight: bold;display: block;margin-bottom: 5px;">Deixe sua sugestão sobre o que podemos melhorar</label> 
+                  <div>
+ 
+                  <textarea id="TextArea1" name="S1" class="auto-style3"></textarea></div>
+                 </div> 
+
+                 <div class="input-group">
+                    <button>Enviar</button>
+                </div>
+
+            </form>
+        </div>
+        
 </body>
 </html>
